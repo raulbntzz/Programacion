@@ -40,6 +40,9 @@ while True:
             else:
                 saldo_inicial -= retirar
                 retiradas_totales += 1
+                if saldo_inicial < 0:
+                    print("No tienes suficiente dinero en tu cuenta")
+                    saldo_inicial += retirar
             #Mostrar el menú y volver a preguntar por la acción a realizar
             menu_inicio()
             operacion = int(input("¿Qué operación desea realizar?: "))
