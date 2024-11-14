@@ -30,7 +30,7 @@ def leer_pedido():
         conexion = DEF_Conectar.conectar_basedatos()
         idpedido = input("Introduce el id del cliente que ha realizado el pedido: ")
         cursor = conexion.cursor()
-        consulta = "SELECT pedido.idpedido, idproducto, idcliente, fechapedido, fechaentrega, precio, unidades, descuento FROM pedido INNER JOIN detalle WHERE idcliente = %s"
+        consulta = "SELECT pedido.idpedido, detalle.idproducto, pedido.idcliente, pedido.fechapedido, pedido.fechaentrega, detalle.precio, detalle.unidades, detalle.descuento FROM pedido INNER JOIN detalle ON pedido.idpedido = detalle.idpedido WHERE pedido.idcliente = %s"
         cursor.execute(consulta, (idpedido,))
         resultados = cursor.fetchall()
         for linea in resultados:
