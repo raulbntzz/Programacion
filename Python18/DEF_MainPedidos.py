@@ -45,7 +45,7 @@ def actualizar_pedido():
         unidades = input("Introduce la nueva cantidad que desea: ")
         
         cursor = conexion.cursor()
-        consulta = "UPDATE pedido SET unidades = %s WHERE idpedido = %s"
+        consulta = "UPDATE detalle SET unidades = %s WHERE idpedido = %s"
         cursor.execute(consulta, (unidades, idpedido))
         conexion.commit()
         return print("Pedido actualizado correctamente")
