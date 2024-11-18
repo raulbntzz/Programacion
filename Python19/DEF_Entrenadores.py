@@ -13,7 +13,7 @@ def menu_entrenadores():
 def crear_entrenador():
     try:
         conexion = ConectarMySQL.conectar_basedatos()
-        nombre_entrenador = input("Introduce el nombre del cliente: ")
+        nombre_entrenador = input("Introduce el nombre del entrenador: ")
         especialidad = input("Introduce la especialidad del entrenador: ")
 
         cursor = conexion.cursor()

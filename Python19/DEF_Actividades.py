@@ -15,7 +15,7 @@ def crear_actividad():
         conexion = ConectarMySQL.conectar_basedatos()
         nombre_actividad = input("Introduce el nombre de la actividad: ")
         horario = input("Introduce el horario de la actividad: ")
-        duracion = input("Introduce la duración de la actividad: ")
+        duracion = int(input("Introduce la duración de la actividad (mins): "))
         id_entrenador = int(input("Introduce el id del entrenador de la actividad: "))
 
         cursor = conexion.cursor()
@@ -45,26 +45,11 @@ def actualizar_actividad():
         id_entrenador = input("Introduce el id del nuevo instructor de la actividad: ")
         nombre_actividad = input("Introduce el nuevo nombre de la actividad: ")
         horario = input("Introduce el nuevo horario de la actividad: ")
-        duracion = input("Introduce la nueva duracion de la actividad: ")
+        duracion = input("Introduce la nueva duracion de la actividad (mins): ")
 
         cursor = conexion.cursor()
-        consulta = "UPDATE actividades SET id_entrenador = %s WHERE id_actividad = %s"
-        cursor.execute(consulta, (id_entrenador, id_actividad))
-        conexion.commit()
-
-        cursor = conexion.cursor()
-        consulta = "UPDATE actividades SET nombre_actividad = %s WHERE id_actividad = %s"
-        cursor.execute(consulta, (nombre_actividad, id_actividad))
-        conexion.commit()
-
-        cursor = conexion.cursor()
-        consulta = "UPDATE actividades SET horario = %s WHERE id_actividad = %s"
-        cursor.execute(consulta, (horario, id_actividad))
-        conexion.commit()
-
-        cursor = conexion.cursor()
-        consulta = "UPDATE actividades SET duracion = %s WHERE id_actividad = %s"
-        cursor.execute(consulta, (duracion, id_actividad))
+        consulta = "UPDATE actividades SET id_entrenador = %s, nombre_actividad = %s, horario = %s, duracion = %s WHERE id_actividad = %s"
+        cursor.execute(consulta, (id_entrenador, nombre_actividad, horario, duracion, id_actividad))
         conexion.commit()
         return print("Actividad actualizada correctamente")
     except:

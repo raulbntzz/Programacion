@@ -46,7 +46,7 @@ def main():
                         case 2:
                             DEF_Actividades.leer_actividad()
                         case 3:
-                            DEF_Actividades.crear_actividad()
+                            DEF_Actividades.actualizar_actividad()
                         case 4:
                             DEF_Actividades.eliminar_actividad()
                         case 5:
