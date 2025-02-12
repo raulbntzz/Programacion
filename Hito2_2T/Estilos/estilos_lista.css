@@ -1,0 +1,52 @@
+/* Estilo para el body */
+body {
+    background-color: rgb(6, 39, 72); /* Fondo azul oscuro */
+    font-family: 'Times New Roman', Times, serif; /* Fuente serif */
+}
+
+/* Estilo para los encabezados h1 */
+h1 {
+    color: white; /* Texto blanco */
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    margin: 2rem auto; /* Margen de 2rem arriba y abajo */
+    max-width: 90%; /* Ancho máximo del 90% */
+    padding: 1.5rem; /* Espaciado interior de 1.5rem */
+}
+
+/* Estilo para las celdas de la tabla */
+.table th {
+    background-color: rgb(109, 109, 109); /* Fondo gris */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo para las celdas de la tabla */
+.table td {
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo para los botones */
+.btn {
+    margin: 0 0.2rem; /* Margen de 0.2rem en los laterales */
+    color: white; /* Texto blanco */
+}
+
+/* Estilo para el botón de añadir socio */
+.add-socio-btn {
+    display: block; /* Block para que ocupe toda la línea */
+    width: fit-content; /* Ancho ajustado al contenido */
+    margin: 1rem auto; /* Margen de 1rem arriba y abajo, centrado */
+}
+
+/* Estilo para el botón gris */
+#boton-gris {
+    background-color: rgb(109, 109, 109); /* Fondo gris */
+}
+
+/* Estilo para el botón naranja */
+#boton-naranja {
+    background-color: rgb(202, 136, 21); /* Fondo naranja */
+}
