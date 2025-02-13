@@ -1,0 +1,53 @@
+/* Fuente básica, fondo oscuro y centrado */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d3d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tamaño de fuente y color rojo */
+h3 {
+    font-size: 18px;
+    color: red;
+}
+
+/* Fondo blanco, bordes redondeados y sombra */
+.container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo de texto, contraseña y email */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    background-color: rgb(199, 199, 199);
+}
+
+/* Color azul, sin bordes y texto blanco */
+input[type="submit"] {
+    background-color: rgb(9, 96, 183);
+    color: white;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Cambio de color al pasar el ratón por el botón */
+input[type="submit"]:hover {
+    background-color: rgb(59, 124, 189);
+}
