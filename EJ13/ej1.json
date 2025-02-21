@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Pasta Carbonara",
+        "descripcion": "Pasta italiana con salsa cremosa de huevo, queso, panceta y pimienta negra.",
+        "imagen": "https://imgs.search.brave.com/Q55v0IDyWa7FPdFGEgxiIq-Wl2VPxI4otkdgi-FjqS4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE0/MjM5MTQ2My9waG90/by9wYXN0YS1jYXJi/b25hcmEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPTdnTzlt/UmVORnpZMTBxc211/X1g0X0xaNDUtVWNW/UHR6cEhGLURPRnA2/Q2M9"
+    },
+    {
+        "nombre": "Ensalada César",
+        "descripcion": "Lechuga con aderezo cremoso, crutones y queso parmesano.",
+        "imagen": "https://imgs.search.brave.com/0Fhrr9GfkLwfl-f5zK2l0BYWA4sJbEa3HgUeV4DxtXw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudG1lY29zeXMu/Y29tL2ltYWdlL3Vw/bG9hZC90X3dlYjc2/N3g2MzkvaW1nL3Jl/Y2lwZS9yYXMvQXNz/ZXRzL0U0RDJCMTE1/LUVBMjUtNDk3MS1C/MjI0LTQ5OEZDNDhC/RDkwMy9EZXJpdmF0/ZXMvRTk3NUE3RTEt/Njc4Qi00QjI0LTk5/MzctQzc1RkQ1QjM5/MUM0LmpwZw"
+    },
+    {
+        "nombre": "Pizza Margarita",
+        "descripcion": "Base de pizza con salsa de tomate, mozzarella y albahaca fresca.",
+        "imagen": "https://imgs.search.brave.com/hFbaeXZGdIryUn2xZf2ukc1_9Suk0N5ryyqOdg9v5g8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU3/NzQxNTM5L3Bob3Rv/L3BpenphLW1hcmdo/ZXJpdGEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPTF4anJP/U0lQMjNERFgyR3hn/dHZxeHhoZ29JWDlK/SUxrcVdPRW1mLUxT/OHM9"
+    }
+]
