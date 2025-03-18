@@ -1,2 +1,1 @@
-# Programacion
- Repositorio Para Subir Ejercicios De Programacion
+Primeros pasos con JAVA en cmd, entorno de texto
