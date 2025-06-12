@@ -1,4 +1,4 @@
------- Introducción
+------ Introducción ------
 En este proyecto, se nos ha pedido
 que realicemos una aplicación
 para una tienda de productos otaku
