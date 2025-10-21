@@ -1,0 +1,92 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 3%;
+    padding: 1%;
+}
+
+main.container {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+form label {
+    font-weight: 600;
+}
+
+form input,
+form textarea,
+form select {
+    border-radius: 6px;
+}
+
+footer {
+    margin-top: 3%;
+    padding: 0.83%;
+    background-color: #0056b3;
+    border-top: 1px solid #dee2e6;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+small {
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+a,
+button {
+    transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    main.container {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
+    }
+}
+
+#cabezera {
+    background-color: #0056b3;
+    text-align: center;
+}
+
+#divDetalles {
+    margin-bottom: 5%;
+}
